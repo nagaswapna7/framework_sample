@@ -33,4 +33,19 @@ public class ContactTest
 		System.out.println("password is: "+PASSWORD);
 		System.out.println("Execute modify contact test");
 	}
+	@Test(groups = "RegressionTest")
+	public void deleteContactTest()
+	{
+		String URL = System.getProperty("url");
+		String BROWSER = System.getProperty("browser");
+		String USERNAME = System.getProperty("username");
+		String PASSWORD = System.getProperty("password");
+		
+		System.out.println("url is: "+URL);
+		System.out.println("browser is: "+BROWSER);
+		System.out.println("username is: "+USERNAME);
+		System.out.println("password is: "+PASSWORD);
+		System.out.println("Execute delete contact test");
+	}
+	
 }
